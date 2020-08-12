@@ -2,22 +2,22 @@ import React, { useState } from "react";
 import useZ from "../z";
 import Fade from "react-reveal/Fade";
 
-const QuestionModal = props => {
-  const selected = useZ(z => z.selected);
-  const setSelected = useZ(z => z.setSelected);
-  const score = useZ(z => z.score);
-  const setScore = useZ(z => z.setScore);
-  const team = useZ(z => z.team);
+const QuestionModal = (props) => {
+  const selected = useZ((z) => z.selected);
+  const setSelected = useZ((z) => z.setSelected);
+  const score = useZ((z) => z.score);
+  const setScore = useZ((z) => z.setScore);
+  const team = useZ((z) => z.team);
   const [showingAnswer, setShowingAnswer] = useState(false);
-  const answered = useZ(z => z.answered);
-  const setAnswered = useZ(z => z.setAnswered);
+  const answered = useZ((z) => z.answered);
+  const setAnswered = useZ((z) => z.setAnswered);
 
   const handleClose = () => {
     setSelected(null);
     setShowingAnswer(!showingAnswer);
   };
 
-  const handleScore = isCorrectAnswer => {
+  const handleScore = (isCorrectAnswer) => {
     if (isCorrectAnswer === true)
       setScore({ ...score, [team]: score[team] + selected.value });
     else setScore({ ...score, [team]: score[team] - selected.value / 2 });
@@ -32,7 +32,11 @@ const QuestionModal = props => {
   return (
     <div className="question-modal">
       <Fade bottom>
-        <div className="question-modal-question">{selected.question}</div>
+        <div className="question-modal-question">
+          {selected.question.split("<br />").map((str) => (
+            <p>{str}</p>
+          ))}
+        </div>
       </Fade>
       {showingAnswer ? (
         <Fade bottom>

@@ -4,27 +4,27 @@
     "questions": [
       {
         "value": 100,
-        "question": "When this is used, a variable can not be reassigned.",
+        "question": "When this is used, a variable can not be reassigned.<br />これを使用すると、変数の再代入ができません。",
         "answer": "const"
       },
       {
         "value": 200,
-        "question": "The context in which values are visible or can be referenced.",
+        "question": "The context in which values are visible or can be referenced.<br />変数や関数の引数などを参照できる範囲を決めるもの。",
         "answer": "scope"
       },
       {
         "value": 300,
-        "question": "The combination of a function with reference to its lexical environment.",
+        "question": "The combination of a function with reference to its lexical environment.<br />関数と、その関数が宣言されたレキシカル環境（静的スコープ）の組み合わせ。",
         "answer": "Closure"
       },
       {
         "value": 400,
-        "question": "The three most common ways to handle asynchronous operations in JavaScript.",
+        "question": "The three most common ways to handle asynchronous operations in JavaScript.<br />JavaScriptで非同期操作を行う最も一般的な3つの方法。",
         "answer": "Callbacks, Promises, async/await"
       },
       {
         "value": 500,
-        "question": "This is JavaScript's inheritance model.",
+        "question": "This is JavaScript's inheritance model.<br />JavaScriptの継承モデルのこと。",
         "answer": "The prototype chain"
       }
     ]
@@ -34,27 +34,27 @@
     "questions": [
       {
         "value": 100,
-        "question": "The repetition of a sequence of computer instructions a specified number of times or until a condition is met.",
+        "question": "The repetition of a sequence of computer instructions a specified number of times or until a condition is met.<br />コンピュータへの命令シーケンスを指定された回数だけ繰り返すこと、または条件が満たされるまで繰り返すこと。",
         "answer": "loop"
       },
       {
         "value": 200,
-        "question": "Time required for a function to execute based on its input size.",
+        "question": "Time required for a function to execute based on its input size.<br />入力サイズに基づいて関数が実行されるのに必要な時間。",
         "answer": "Big O notation"
       },
       {
         "value": 300,
-        "question": "Programming technique involving the use of a procedure, subroutine, function, or algorithm that calls itself one or more times until a specified condition is met.",
+        "question": "Programming technique involving the use of a procedure, subroutine, function, or algorithm that calls itself one or more times until a specified condition is met.<br />プロシージャ、サブルーチン、関数、アルゴリズム使用して、指定された条件が満たされるまで、1回または複数回自分自身を呼び出すプログラミング技術。",
         "answer": "Recursion"
       },
       {
         "value": 400,
-        "question": "In this data structure, for any given node C, if P is a parent node of C, then the key (the value) of P is greater than or equal to the key of C.",
+        "question": "In this data structure, for any given node C, if P is a parent node of C, then the key (the value) of P is greater than or equal to the key of C.<br />任意のノードＣについて、ＰがＣの親ノードの場合、Ｐのキー（値）はＣのキー以上であるというデータ構造。",
         "answer": "Heap"
       },
       {
         "value": 500,
-        "question": "A form of automatic memory management which reclaims memory occupied by objects that are no longer in use by the program.",
+        "question": "A form of automatic memory management which reclaims memory occupied by objects that are no longer in use by the program.<br />実行中のプログラムが占有していたメモリ領域のうち、不要になったものを自動的に解放し、空き領域として再利用できるようにするもの。",
         "answer": "Garbage collection"
       }
     ]
@@ -64,27 +64,27 @@
     "questions": [
       {
         "value": 100,
-        "question": "The most popular Node framework, allowing us to write handlers for requests with different HTTP verbs at different URL paths.",
+        "question": "The most popular Node framework, allowing us to write handlers for requests with different HTTP verbs at different URL paths.<br />最も人気のある Node フレームワークで、リクエストに対して、異なるURLパスで、HTTP verbsと共にハンドラーを書くことができる。",
         "answer": "Express"
       },
       {
         "value": 200,
-        "question": "Computer program or a device that provides functionality for other programs or devices, called \"clients\".",
+        "question": "Computer program or a device that provides functionality for other programs or devices, called \"clients\".<br />他のプログラムやデバイスに機能を提供するコンピュータプログラムやデバイスで、 \"clients\" と呼ばれる。",
         "answer": "Server"
       },
       {
         "value": 300,
-        "question": "A small piece of data sent from a website and stored on the user's computer by the user's web browser while the user is browsing.",
+        "question": "A small piece of data sent from a website and stored on the user's computer by the user's web browser while the user is browsing.<br />Web サイトがユーザーのブラウジング中に Web ブラウザに送信する小さなデータであり、Web ブラウザーに保存される。",
         "answer": "Cookie"
       },
       {
         "value": 400,
-        "question": "A keyword in SQL that allows you to rename a column or table using an alias.",
+        "question": "A keyword in SQL that allows you to rename a column or table using an alias.<br />SQLを使ってデータベースからデータを取得する時に、これを使うと列やテーブルに別名を付けてデータを取得ることができる。",
         "answer": "AS"
       },
       {
         "value": 500,
-        "question": "Refers to the management of incremental, reversible changes and version control for relational database schemas.",
+        "question": "Refers to the management of incremental, reversible changes and version control for relational database schemas.<br />リレーショナル・データベース・スキーマに対して加えた変更を順序立ててバージョン管理すること。",
         "answer": "Schema migration"
       }
     ]
@@ -94,27 +94,27 @@
     "questions": [
       {
         "value": 100,
-        "question": "The API to a webpage, allowing programs to read and manipulate the page content, structure, and styles.",
+        "question": "The API to a webpage, allowing programs to read and manipulate the page content, structure, and styles.<br />Web ページの内容、構造、スタイルをプログラムで読み込んで操作できるようにするためのAPI。",
         "answer": "DOM"
       },
       {
         "value": 200,
-        "question": "Describes all HTML elements, and includes content, padding, border and margin.",
+        "question": "Describes all HTML elements, and includes content, padding, border and margin.<br />HTML内のすべての要素に対する領域を指し、コンテンツ、パディング、ボーダー、マージンなどを含んでいる。",
         "answer": "The CSS box model"
       },
       {
         "value": 300,
-        "question": "HTML5 convention via which HTML elements clearly describe their meaning to both the browser and the developer, as well as providing enhanced accessibility.",
+        "question": "HTML5 convention via which HTML elements clearly describe their meaning to both the browser and the developer, as well as providing enhanced accessibility.<br />HTML5で導入された記述方法で、ブラウザと開発者の両方に内容を明確に伝えるだけでなく、アクセシビリティを向上させることができるHTML要素。",
         "answer": "Semantic elements"
       },
       {
         "value": 400,
-        "question": "A React hook which serves the same purpose as componentDidMount, componentDidUpdate, and componentWillUnmount did in React classes, but unified into a single API.",
+        "question": "A React hook which serves the same purpose as componentDidMount, componentDidUpdate, and componentWillUnmount did in React classes, but unified into a single API.<br />React のクラスコンポーネントにおける componentDidMount、componentDidUpdate、componentWillUnmountと同じ目的を果たす単一の API に統一された React フック。",
         "answer": "useEffect"
       },
       {
         "value": 500,
-        "question": "A JavaScript API for rendering interactive 2D and 3D graphics within any compatible web browser without the use of plug-ins.",
+        "question": "A JavaScript API for rendering interactive 2D and 3D graphics within any compatible web browser without the use of plug-ins.<br />互換性のある Web ブラウザであれば、プラグインを使うことなくブラウザ内でインタラクティブな 2D および 3D グラフィックスをレンダリングすることができる JavaScript API。",
         "answer": "WebGL"
       }
     ]
@@ -124,27 +124,27 @@
     "questions": [
       {
         "value": 100,
-        "question": "It advocates adaptive planning, evolutionary development, early delivery, and continual improvement, and it encourages rapid and flexible response to change.",
+        "question": "It advocates adaptive planning, evolutionary development, early delivery, and continual improvement, and it encourages rapid and flexible response to change.<br />それは、適応的な計画、進化的な開発、早期納品、継続的な改善を提唱し、変化への迅速かつ柔軟な対応を奨励しています。",
         "answer": "Agile"
       },
       {
         "value": 200,
-        "question": "A software development practice where members of a team combine their work frequently.",
+        "question": "A software development practice where members of a team combine their work frequently.<br />チームのメンバーが頻繁に仕事を組み合わせるソフトウェア開発の実践。",
         "answer": "Continuous Integration"
       },
       {
         "value": 300,
-        "question": "Design philosophy stating that rather than making users work around the product, the product should work around the user.",
+        "question": "Design philosophy stating that rather than making users work around the product, the product should work around the user.<br />ユーザーに製品を中心に仕事をさせるのではなく、製品はユーザーを中心に仕事をするべきであるというデザイン哲学。",
         "answer": "User Centered Design"
       },
       {
         "value": 400,
-        "question": "An approach to building new businesses based on the belief that entrepreneurs must investigate, experiment, test and iterate as they develop products.",
+        "question": "An approach to building new businesses based on the belief that entrepreneurs must investigate, experiment, test and iterate as they develop products.<br />起業家は製品を開発する際には、調査、実験、テスト、反復しなければならないという信念に基づいて、新しいビジネスを構築するためのアプローチ。",
         "answer": "Lean Startup"
       },
       {
         "value": 500,
-        "question": "Used to help a product manager (and others in the organization involved with the product's development) understand key traits, behaviors, goals, responsibilities, and needs of a specific type of user.",
+        "question": "Used to help a product manager (and others in the organization involved with the product's development) understand key traits, behaviors, goals, responsibilities, and needs of a specific type of user.<br />プロダクトマネージャー(およびプロダクトの開発にかかわる構成の他の人)が特定のタイプのユーザーの主要な特徴、行動、目的、責任および必要性を理解するのを助けるのに使用される。",
         "answer": "Persona"
       }
     ]
