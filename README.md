@@ -2,8 +2,8 @@
 
 AN APP OF JEOPARDOUS FUN 🤖👍🏼🔥
 
-Check it out by clicking the cheese. [🧀](https://sidiousvic.github.io/yopardy/)
-英語 & 日本語のバイリンガルモードで遊びたい人は Coffee をクリックしてね！ [☕](https://nouvelle.github.io/yopardy/)
+Check it out by clicking the cheese. [🧀](https://sidiousvic.github.io/yopardy/)  
+英語 & 日本語のバイリンガルモードで遊びたい人は Coffee をクリック！ [☕](https://nouvelle.github.io/yopardy/)
 
 _BUILT BY SIDIOUSVIC, ENGINEER @ CODE CHRYSALIS 🐛_
 
