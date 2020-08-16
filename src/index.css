@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Noto Serif JP", serif-apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
@@ -20,7 +20,7 @@ code {
 .App {
   height: 100vh;
   display: flex;
-  background-color: blue;
+  background-color: #55b491;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
@@ -31,9 +31,9 @@ code {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: Fira Code;
-  font-size: 4vh;
-  background-color: blue;
+  /* font-family: Fira Code; */
+  font-size: 3vh;
+  background-color: #55b491;
   color: white;
   height: 9vh;
   width: 100%;
@@ -51,13 +51,13 @@ code {
 
 .column-header {
   display: flex;
-  background-color: blue;
+  background-color: #55b491;
   color: white;
   flex-direction: column;
   align-items: center;
   font-size: 1.3rem;
   justify-content: center;
-  font-family: Fira Code;
+  /* font-family: Fira Code; */
   height: 15%;
 }
 
@@ -69,18 +69,18 @@ code {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: Fira Code;
+  /* font-family: Fira Code; */
   cursor: pointer;
   user-select: none;
   border: white solid 1px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .question:hover {
   animation: bordercolors 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s infinite;
   color: white;
-  font-size: 3rem;
-  background-color: blue;
+  font-size: 2rem;
+  background-color: #55b491;
 }
 
 .teams {
@@ -97,8 +97,8 @@ code {
   justify-content: space-between;
   cursor: pointer;
   user-select: none;
-  font-family: Fira Code;
-  font-size: 2rem;
+  /* font-family: Fira Code; */
+  font-size: 1.5rem;
   color: white;
   padding: 1rem;
 }
@@ -108,9 +108,9 @@ code {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: Fira Code;
+  /* font-family: Fira Code; */
   cursor: pointer;
-  font-size: 4vh;
+  font-size: 3vh;
   user-select: none;
   pointer-events: none;
 }
@@ -120,9 +120,9 @@ code {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: Fira Code;
+  /* font-family: Fira Code; */
   cursor: pointer;
-  font-size: 4vh;
+  font-size: 3vh;
   user-select: none;
   pointer-events: none;
   color: red;
@@ -130,69 +130,69 @@ code {
 
 .question-modal {
   color: white;
-  font-family: Fira Code;
-  font-size: 4rem;
+  /* font-family: Fira Code; */
+  font-size: 3rem;
   position: absolute;
   top: 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  background: blue;
+  background: #55b491;
   height: 100%;
   width: 100%;
 }
 
 .question-modal-question {
   padding: 2rem 5rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
 }
 
 .show-answer-button {
-  background-color: blue;
-  font-size: 3rem;
+  background-color: #55b491;
+  font-size: 2rem;
   color: white;
 }
 
 .show-answer-button:hover {
   background-color: white;
-  font-size: 3rem;
-  color: blue;
+  font-size: 2rem;
+  color: #55b491;
 }
 
 .close-modal-button {
-  background-color: blue;
-  font-size: 3rem;
+  background-color: #55b491;
+  font-size: 2rem;
   color: white;
 }
 
 .close-modal-button:hover {
   background-color: white;
-  font-size: 3rem;
-  color: blue;
+  font-size: 2rem;
+  color: #55b491;
 }
 
 .question-modal-answer {
   text-align: center;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .hell-yeah-button {
-  background-color: blue;
-  font-size: 3rem;
+  background-color: #55b491;
+  font-size: 2rem;
   color: white;
 }
 
 .hell-yeah-button:hover {
   background-color: white;
-  font-size: 3rem;
-  color: blue;
+  font-size: 2rem;
+  color: #55b491;
 }
 
 .score-last-updated {
   color: white;
-  font-family: Fira Code;
+  /* font-family: Fira Code; */
   font-size: 1rem;
   width: 100%;
   text-align: center;
@@ -200,7 +200,7 @@ code {
 
 button {
   cursor: pointer;
-  font-family: Fira Code;
+  font-family: "Noto Serif JP", Fira Code;
   font-size: 1rem;
   padding: 1rem;
 }

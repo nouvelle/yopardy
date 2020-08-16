@@ -3,13 +3,13 @@
 AN APP OF JEOPARDOUS FUN 🤖👍🏼🔥
 
 Check it out by clicking the cheese. [🧀](https://sidiousvic.github.io/yopardy/)
+英語 & 日本語のバイリンガルモードで遊びたい人は Coffee をクリックしてね！ [☕](https://nouvelle.github.io/yopardy/)
 
-*BUILT BY SIDIOUSVIC, ENGINEER @ CODE CHRYSALIS 🐛*
-
+_BUILT BY SIDIOUSVIC, ENGINEER @ CODE CHRYSALIS 🐛_
 
 ## Contribute
 
-1. **Fork your respective cohort's branch**  `ccXX` 
+1. **Fork your respective cohort's branch** `ccXX`
 
 2. **Clone your fork** `git clone https://github.com/<yourusername>/yopardy.git`
 
@@ -20,7 +20,6 @@ At this point, I reccomend you take a while to understand how state is implement
 4. **Commit often and atomically** ⚠️
 
 5. **PR against master with a DESCRIPTIVE title, assign** `@sidiousvic` **for review**
-
 
 ## Wanted Features
 
