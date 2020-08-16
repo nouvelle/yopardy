@@ -129,22 +129,22 @@
       },
       {
         "value": 200,
-        "question": "A software development practice where members of a team combine their work frequently.<br />チームのメンバーが頻繁に仕事を組み合わせるソフトウェア開発の実践。",
+        "question": "A software development practice where members of a team combine their work frequently.<br />開発者が頻繁に自分のコードをマージするソフトウェア開発手法。",
         "answer": "Continuous Integration"
       },
       {
         "value": 300,
-        "question": "Design philosophy stating that rather than making users work around the product, the product should work around the user.<br />ユーザーに製品を中心に仕事をさせるのではなく、製品はユーザーを中心に仕事をするべきであるというデザイン哲学。",
+        "question": "Design philosophy stating that rather than making users work around the product, the product should work around the user.<br />プロダクトを中心に考えて開発をするのではなく、開発者はユーザーを中心に考えプロダクトを作るべきであるというデザイン哲学。",
         "answer": "User Centered Design"
       },
       {
         "value": 400,
-        "question": "An approach to building new businesses based on the belief that entrepreneurs must investigate, experiment, test and iterate as they develop products.<br />起業家は製品を開発する際には、調査、実験、テスト、反復しなければならないという信念に基づいて、新しいビジネスを構築するためのアプローチ。",
+        "question": "An approach to building new businesses based on the belief that entrepreneurs must investigate, experiment, test and iterate as they develop products.<br />起業家が製品を開発する際に、短期間で調査、実験、テストを繰り返し行い、開演を施しながら新しいビジネスを構築するアプローチ。",
         "answer": "Lean Startup"
       },
       {
         "value": 500,
-        "question": "Used to help a product manager (and others in the organization involved with the product's development) understand key traits, behaviors, goals, responsibilities, and needs of a specific type of user.<br />プロダクトマネージャー(およびプロダクトの開発にかかわる構成の他の人)が特定のタイプのユーザーの主要な特徴、行動、目的、責任および必要性を理解するのを助けるのに使用される。",
+        "question": "Used to help a product manager (and others in the organization involved with the product's development) understand key traits, behaviors, goals, responsibilities, and needs of a specific type of user.<br />プロダクトマネージャー(およびプロダクトの開発にかかわる人々)が、商品を利用するターゲットとなる架空の人物を設定し、ユーザーの主要な特徴、行動、目的、責任および必要性を理解を深めるために導入される。",
         "answer": "Persona"
       }
     ]
